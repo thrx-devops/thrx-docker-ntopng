@@ -11,7 +11,7 @@ RUN apt-get update && \
     apt-get -y install ntopng \
     --fix-missing
 
-RUN echo '#!/bin/bash\n/etc/init.d/redis-server start\nntopng "$@"' > /run.sh && \
+RUN echo '#!/bin/bash\n/etc/init.d/redis-server start\nntopng ${NTOPNG_OPTIONS} "$@"' > /run.sh && \
     chmod +x /run.sh
 
 EXPOSE 3000
