@@ -1,6 +1,13 @@
 # thrx-docker-ntopng
 
 ## thrx-ntopng
+![GitHub](https://img.shields.io/github/license/thrx-devops/thrx-docker-ntopng.svg)
+
+![Docker Pulls](https://img.shields.io/docker/pulls/thrx/thrx-ntopng.svg)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/thrx/thrx-ntopng.svg)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/thrx/thrx-ntopng.svg)
+
+### Docker for running [ntopng](https://github.com/ntop/ntopng)
 
 ```
     docker run \ 
